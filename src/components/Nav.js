@@ -4,7 +4,8 @@ import styled from "styled-components";
 const Container = styled.div`
   background-color: black;
   border: 2px dotted red;
-  max-width: 80%;
+  height: 325px;
+  width: 1500px;
   display: flex;
   justify-content: center;
 `;
@@ -12,13 +13,16 @@ const List = styled.ul`
   display: flex;
   list-style: none;
   justify-content: space-evenly;
+  align-items: flex-end;
 `;
 const Items = styled.li`
+  display: flex;
   color: white;
-  height: 25px;
+  height: 100px;
   width: 100px;
   //background-color: orange;
   margin: 20px;
+  align-items: flex-end;
 `;
 
 const Nav = () => {
