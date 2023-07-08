@@ -1,12 +1,17 @@
 import Nav from "./components/Nav.js";
+import styled from "styled-components";
+
+const Container = styled.div`
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+`;
 
 function App() {
   return (
-    <div>
-      <h1>hello</h1>
-
+    <Container>
       <Nav />
-    </div>
+    </Container>
   );
 }
 
