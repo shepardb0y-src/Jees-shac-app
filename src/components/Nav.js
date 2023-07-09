@@ -16,6 +16,7 @@ const List = styled.ul`
   align-items: flex-end;
 `;
 const Items = styled.li`
+  display: flex;
   color: white;
   height: 100px;
   width: 100px;
