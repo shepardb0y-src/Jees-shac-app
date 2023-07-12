@@ -1,20 +1,22 @@
 import Nav from "./components/Nav.js";
 import styled from "styled-components";
 import GlobalStyles from "./components/GlobalStyles.js";
+import Container from "./components/Container.js";
 
-const Container = styled.div`
+const Contents = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: grey;
-
 `;
 
 function App() {
   return (
-    <Container>
+    <Contents>
       <GlobalStyles />
       <Nav />
-    </Container>
+      <Container />
+    </Contents>
   );
 }
 
